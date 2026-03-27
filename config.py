@@ -14,11 +14,11 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://kamalkishor165040:kamalkishor165040@cluster0.wxloo4t.mongodb.net/ )
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
-YT_API_KEY = getenv("YT_API_KEY" , None ) ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
+YT_API_KEY = getenv("YT_API_KEY" , 'xbit_6Pv279q_F7023HZDVW-p2azEdqDgGupN' ) ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
 
 ## Other vaes
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -44,8 +44,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/amigr8")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/randomlychats")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AnnebellaMusicUpdate")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Annebellamusicgc")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -89,12 +89,12 @@ autoclean = []
 confirmer = {}
 file_cache: dict[str, float] = {}
 
-START_IMG_URL = ["https://te.legra.ph/file/5fd13f2cc0d03bce9f7f2.jpg",
-                 "https://te.legra.ph/file/c15d01b3e6b40ea141dc9.jpg",
-                 "https://te.legra.ph/file/5fd13f2cc0d03bce9f7f2.jpg"]
+START_IMG_URL = ["https://ibb.co/xqx9kZbn",
+                 "https://ibb.co/xqx9kZbn",
+                 "https://ibb.co/xqx9kZbn"]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/87f680aead03443f291b0.jpg"
+    "PING_IMG_URL", "https://ibb.co/xqx9kZbn"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/edd388a42dd2c499fd868.jpg"
